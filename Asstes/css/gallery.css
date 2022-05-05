@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+     font-size: 35px;
+     color: brown;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.gallery img{
+      height: auto;
+      width: 100%;
+}
+.gallery{
+    border: 1px solid #ccc;
+}
+.des{
+    padding: 15px;
+    text-align: center;
+}
+.responsive{
+    padding: 0  6px;
+    float: left;
+    width: 25%;
+}
+@media only screen and (max-width:700px){
+      .responsive{
+          width: 50%;
+          margin: 6px 0;
+      }
+}
+
+@media only screen and (max-width:500px){
+    .responsive{
+        width: 100%;
+        
+    }
+}
